@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main(){
+float a,b,c,d,e,x,g;
+    printf("enter a   ");
+    scanf("%f",&a);
+    
+    printf("enter b   ");
+    scanf("%f",&b);
+    
+    printf("enter c   ");
+    scanf("%f",&c);
+
+    printf("enter d   ");
+    scanf("%f",&d);
+    
+    printf("enter e   ");
+    scanf("%f",&e);
+    x= (a+d+c+b+e);
+    g=(x/500*100);
+         printf("print  %f\n",g );
+         
+         
+        
+    if (g>=90&&g<=100)
+        printf("your grade is A");
+         
+         
+    else if (g>=80&&g<=90)
+        printf("your grade is B");
+       
+    else if (g>=70&&g<=80)
+        printf("your grade is C");
+        
+    else if (g>=60&&g<=70)
+        printf("your grade is D");
+        
+    else 
+        printf("you ARE FAIL ");
+    
+    return 0; 
+    
+    
+}
